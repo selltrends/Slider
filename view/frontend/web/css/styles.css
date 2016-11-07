@@ -1,0 +1,113 @@
+.bannerslider-widget ul{
+    padding: 0
+}
+
+
+.bannerslider-widget {
+    margin-bottom: 40px
+}
+
+.bannerslider-widget .atopt-slider {
+    position: relative;
+    overflow: hidden
+}
+
+.bannerslider-widget .atopt-slider .text-content {
+    position: absolute;
+    top: 25%;
+    left: 17%;
+    color: #fff;
+    z-index: 999
+}
+
+.bannerslider-widget .atopt-slider .text-content h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 48px
+}
+
+.bannerslider-widget .atopt-slider .text-content p {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-size: 18px;
+    padding: 20px 0 30px
+}
+
+.bannerslider-widget .atopt-slider .text-content a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-right: 10px;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 12px;
+    display: inline-block
+}
+
+.bannerslider-widget .atopt-slider .text-content a:hover,
+.bannerslider-widget .atopt-slider .text-content a:focus {
+    background: #333;
+    border-color: #333
+}
+
+.bannerslider-widget .atopt-slider .text-content a.primary {
+    background: #c99947;
+    border-color: #c99947
+}
+
+.bannerslider-widget .atopt-slider .text-content a.primary:hover,.bannerslider-widget .atopt-slider .text-content a.primary:focus {
+    background: #333;
+    border-color: #333
+}
+
+.bannerslider-widget .atopt-slider .text-content.position-02 {
+    left: auto;
+    right: 5%
+}
+
+.bannerslider-widget,.ves-testominial{
+    position: relative
+}
+
+
+.bannerslider-widget .owl-controls .owl-nav > div:hover{
+    background: #c99947;
+    color: #fff;
+    border-color: #c99947
+}
+
+.bannerslider-widget:hover .owl-controls{
+    width: 100%;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+    filter: alpha(opacity=100);
+    visibility: visible;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease
+}
+
+.bannerslider-widget .owl-controls .owl-nav > div {
+    background: #46949a;
+    border-color: #46949a;
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 15px
+}
+
+.bannerslider-widget .owl-controls .owl-nav > div:hover,.bannerslider-widget .owl-controls .owl-nav > div:focus {
+    background: #c99947;
+    border-color: #c99947
+}
+
+
+.bannerslider-widget .disabled{
+    display: none;
+}
+.bannerslider-widget .owl-dots{
+    text-align: center;
+}

@@ -1,0 +1,65 @@
+<?php 
+	$productCollection = $block->getLoadedProductCollection();
+	$_helper = $this->helper('Magento\Catalog\Helper\Output');
+?>
+<div class="block widget block-products-list grid">
+	<div class="block-title">
+		<strong><?php echo $block->getTitle() ?></strong>
+	</div>
+	<div class="block-content">
+		<div class="products-grid grid">
+		<?php if (count($productCollection)) : ?>
+			<ol class="product-items widget-product-grid owl-carousel">
+			<?php foreach ($productCollection as $product): ?>
+				<li>
+					<div class="product-item-info">
+						<a href="<?php echo $product->getProductUrl()?>" class="product-item-photo">
+								<?php echo $block->getImage($product,'category_page_grid')->toHtml() ?>
+						</a>
+						<div class="product-item-details">
+							<strong class="product-item-name">
+								<a href="<?php echo $product->getProductUrl()?>" class="product-item-link">
+									<?php echo $_helper->productAttribute($product, $product->getName(),'name');?>
+								</a>
+							</strong>
+							<?php echo $block->getProductPrice($product) ?>
+						</div>
+					</div>
+				</li>
+				<?php endforeach;?>
+			</ol>
+		<?php endif;?>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+require(['jquery','Atopt_Slider/js/owl.carousel.min'], function(){
+	jQuery(document).ready(function(){
+		jQuery(".owl-carousel").owlCarousel(
+					  {
+						    loop:true,
+						    margin:10,
+						    responsiveClass:true,
+						    autoplay:true,
+						    autoplayTimeout:3000,
+						    autoplayHoverPause:true,
+						    responsive:{
+						        0:{
+						            items:1,
+						            nav:true
+						        },
+						        600:{
+						            items:3,
+						            nav:false
+						        },
+						        1000:{
+						            items:5,
+						            nav:true,
+						            loop:true
+						        }
+						    }
+						}
+			);
+		});	
+});
+</script>
