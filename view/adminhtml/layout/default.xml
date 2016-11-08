@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+	<head>
+		<css src="Atopt_Slider::css/styles.css" />
+	</head>
+	<update handle="editor"/>
+	<body>
+		<referenceContainer name="js">
+			<block class="Magento\Framework\View\Element\Template" template="Atopt_Slider::wysiwyg/js.phtml" name="bannerslider.wysiwyg.js"/>
+		</referenceContainer>
+	</body>
+</page>
