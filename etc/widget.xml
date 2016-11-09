@@ -35,7 +35,7 @@
 		</parameters>
 	</widget>
 	<widget 
-		id="atopt_bannerslider" 
+		id="atopt_banner_slider" 
 		class="Atopt\Slider\Block\Widget\Sliders"
 		is_email_compatible="false"
 		placeholder_image="Magento_Widget::placeholder.gif">

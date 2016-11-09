@@ -35,14 +35,14 @@ $enable_custom_nav   = $this->getConfig('enable_custom_nav');
 $next_icon_class     = $this->getConfig('next_icon_class');
 $previous_icon_class = $this->getConfig('previous_icon_class');
 ?>
-<div class="block widget atopt-widget bannerslider-widget owl-theme <?php echo $addition_class?$addition_class:'' ?>">
+<div class="block widget atopt-widget slider-widget owl-theme <?php echo $addition_class?$addition_class:'' ?>">
 	<?php if($title){ ?>
 	<div class="block-title content-heading">
 		<h2 class="title"><?php echo $title ?></h2>
 	</div>
 	<?php } ?>
 	<div class="block-content">
-		<ol id="bannerslider-<?php echo $blockId ?>" class="owl-carousel product-items" >
+		<ol id="slider-<?php echo $blockId ?>" class="owl-carousel product-items" >
 			<?php foreach ($slides as $k => $v) { ?>
 			<li class="slider-block"><?php echo $v; ?></li>
 			<?php } ?>
@@ -62,7 +62,7 @@ $previous_icon_class = $this->getConfig('previous_icon_class');
 		"Atopt_Slider/js/owl.carousel.min"
 	],function(){
 		jQuery(document).ready(function() {
-			var owl = jQuery('#bannerslider-<?php echo $blockId ?>');
+			var owl = jQuery('#slider-<?php echo $blockId ?>');
 			owl.owlCarousel({
 				animateOut: <?php echo $animateOut?'"'.$animateOut.'"':"false"; ?>,
 				animateIn: <?php echo $animateIn?'"'.$animateIn.'"':"false"; ?>,

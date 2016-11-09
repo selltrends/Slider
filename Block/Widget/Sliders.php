@@ -20,7 +20,7 @@ class Sliders extends \Magento\Framework\View\Element\Template implements \Magen
 
 	public function _toHtml()
 	{
-		$this->setTemplate("widget/slides.phtml");
+		$this->setTemplate("widgets/slides.phtml");
 		return parent::_toHtml();
 	}
 	
