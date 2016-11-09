@@ -6,7 +6,7 @@
 	<update handle="editor"/>
 	<body>
 		<referenceContainer name="js">
-			<block class="Magento\Framework\View\Element\Template" template="Atopt_Slider::wysiwyg/js.phtml" name="bannerslider.wysiwyg.js"/>
+			<block class="Magento\Framework\View\Element\Template" template="Atopt_Slider::wysiwyg/js.phtml" name="slider.wysiwyg.js"/>
 		</referenceContainer>
 	</body>
 </page>

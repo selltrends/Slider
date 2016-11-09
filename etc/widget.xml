@@ -48,16 +48,16 @@
 			<parameter name="addition_class" xsi:type="text" visible="true" sort_order="20">
 				<label translate="true">Addition Class</label>
 			</parameter>
-			<parameter name="owlsettings_heading" xsi:type="conditions" visible="true" sort_order="30" class="Atopt\BannerSlider\Block\Adminhtml\System\Config\Form\Field\Heading">
+			<parameter name="owlsettings_heading" xsi:type="conditions" visible="true" sort_order="30" class="Atopt\Slider\Block\Adminhtml\System\Config\Form\Field\Heading">
 				<label translate="true">OWL Carousel Settings</label>
 			</parameter>
-			<parameter name="animatein" xsi:type="select"  visible="true" sort_order="40" source_model="Atopt\BannerSlider\Model\Config\Source\AnimateCssIn">
+			<parameter name="animatein" xsi:type="select"  visible="true" sort_order="40" source_model="Atopt\Slider\Model\Config\Source\AnimateCssIn">
 				<label translate="true">animateIn</label>
 			</parameter>
-			<parameter name="animateout" xsi:type="select"  visible="true" sort_order="50" source_model="Atopt\BannerSlider\Model\Config\Source\AnimateCssOut">
+			<parameter name="animateout" xsi:type="select"  visible="true" sort_order="50" source_model="Atopt\Slider\Model\Config\Source\AnimateCssOut">
 				<label translate="true">animateOut</label>
 			</parameter>
-			<parameter name="animatecss_preview" xsi:type="conditions" visible="true" sort_order="60" class="Atopt\BannerSlider\Block\Adminhtml\System\Config\Form\Field\AnimateCssPreview">
+			<parameter name="animatecss_preview" xsi:type="conditions" visible="true" sort_order="60" class="Atopt\Slider\Block\Adminhtml\System\Config\Form\Field\AnimateCssPreview">
 				<label translate="true">Preview</label>
 			</parameter>
 			<parameter name="autoheight" xsi:type="select"  visible="true" sort_order="70" source_model="Magento\Config\Model\Config\Source\Yesno">
@@ -131,67 +131,67 @@
 				<description translate="true"><![CDATA[Stage pull to edge.]]></description>
 			</parameter>
 
-			<parameter name="slidemanage_heading" xsi:type="conditions" visible="true" sort_order="500" class="Atopt\BannerSlider\Block\Adminhtml\System\Config\Form\Field\Heading">
+			<parameter name="slidemanage_heading" xsi:type="conditions" visible="true" sort_order="500" class="Atopt\Slider\Block\Adminhtml\System\Config\Form\Field\Heading">
 				<label translate="true">Slide Manage</label>
 			</parameter>
-			<parameter name="block_1" xsi:type="select" visible="true" sort_order="510" source_model="Atopt\BannerSlider\Model\Config\Source\Staticblock">
+			<parameter name="block_1" xsi:type="select" visible="true" sort_order="510" source_model="Atopt\Slider\Model\Config\Source\Staticblock">
 				<label translate="true">Select CMS Static block 1</label>
 			</parameter>
-			<parameter name="html_1" xsi:type="conditions" visible="true" sort_order="520" class="Atopt\BannerSlider\Block\Adminhtml\Widget\Form\Field\WysiwygEditor">
+			<parameter name="html_1" xsi:type="conditions" visible="true" sort_order="520" class="Atopt\Slider\Block\Adminhtml\Widget\Form\Field\WysiwygEditor">
 				<label translate="true">Content 1</label>
 			</parameter>
-			<parameter name="block_2" xsi:type="select" visible="true" sort_order="530" source_model="Atopt\BannerSlider\Model\Config\Source\Staticblock">
+			<parameter name="block_2" xsi:type="select" visible="true" sort_order="530" source_model="Atopt\Slider\Model\Config\Source\Staticblock">
 				<label translate="true">Select CMS Static block 2</label>
 			</parameter>
-			<parameter name="html_2" xsi:type="conditions" visible="true" sort_order="540" class="Atopt\BannerSlider\Block\Adminhtml\Widget\Form\Field\WysiwygEditor">
+			<parameter name="html_2" xsi:type="conditions" visible="true" sort_order="540" class="Atopt\Slider\Block\Adminhtml\Widget\Form\Field\WysiwygEditor">
 				<label translate="true">Content 2</label>
 			</parameter>
-			<parameter name="block_3" xsi:type="select" visible="true" sort_order="550" source_model="Atopt\BannerSlider\Model\Config\Source\Staticblock">
+			<parameter name="block_3" xsi:type="select" visible="true" sort_order="550" source_model="Atopt\Slider\Model\Config\Source\Staticblock">
 				<label translate="true">Select CMS Static block 3</label>
 			</parameter>
-			<parameter name="html_3" xsi:type="conditions" visible="true" sort_order="560" class="Atopt\BannerSlider\Block\Adminhtml\Widget\Form\Field\WysiwygEditor">
+			<parameter name="html_3" xsi:type="conditions" visible="true" sort_order="560" class="Atopt\Slider\Block\Adminhtml\Widget\Form\Field\WysiwygEditor">
 				<label translate="true">Content 3</label>
 			</parameter>
-			<parameter name="block_4" xsi:type="select" visible="true" sort_order="570" source_model="Atopt\BannerSlider\Model\Config\Source\Staticblock">
+			<parameter name="block_4" xsi:type="select" visible="true" sort_order="570" source_model="Atopt\Slider\Model\Config\Source\Staticblock">
 				<label translate="true">Select CMS Static block 4</label>
 			</parameter>
-			<parameter name="html_4" xsi:type="conditions" visible="true" sort_order="580" class="Atopt\BannerSlider\Block\Adminhtml\Widget\Form\Field\WysiwygEditor">
+			<parameter name="html_4" xsi:type="conditions" visible="true" sort_order="580" class="Atopt\Slider\Block\Adminhtml\Widget\Form\Field\WysiwygEditor">
 				<label translate="true">Content 4</label>
 			</parameter>
-			<parameter name="block_5" xsi:type="select" visible="true" sort_order="590" source_model="Atopt\BannerSlider\Model\Config\Source\Staticblock">
+			<parameter name="block_5" xsi:type="select" visible="true" sort_order="590" source_model="Atopt\Slider\Model\Config\Source\Staticblock">
 				<label translate="true">Select CMS Static block 5</label>
 			</parameter>
-			<parameter name="html_5" xsi:type="conditions" visible="true" sort_order="600" class="Atopt\BannerSlider\Block\Adminhtml\Widget\Form\Field\WysiwygEditor">
+			<parameter name="html_5" xsi:type="conditions" visible="true" sort_order="600" class="Atopt\Slider\Block\Adminhtml\Widget\Form\Field\WysiwygEditor">
 				<label translate="true">Content 5</label>
 			</parameter>
-			<parameter name="block_6" xsi:type="select" visible="true" sort_order="610" source_model="Atopt\BannerSlider\Model\Config\Source\Staticblock">
+			<parameter name="block_6" xsi:type="select" visible="true" sort_order="610" source_model="Atopt\Slider\Model\Config\Source\Staticblock">
 				<label translate="true">Select CMS Static block 6</label>
 			</parameter>
-			<parameter name="html_6" xsi:type="conditions" visible="true" sort_order="620" class="Atopt\BannerSlider\Block\Adminhtml\Widget\Form\Field\WysiwygEditor">
+			<parameter name="html_6" xsi:type="conditions" visible="true" sort_order="620" class="Atopt\Slider\Block\Adminhtml\Widget\Form\Field\WysiwygEditor">
 				<label translate="true">Content 6</label>
 			</parameter>
-			<parameter name="block_7" xsi:type="select" visible="true" sort_order="630" source_model="Atopt\BannerSlider\Model\Config\Source\Staticblock">
+			<parameter name="block_7" xsi:type="select" visible="true" sort_order="630" source_model="Atopt\Slider\Model\Config\Source\Staticblock">
 				<label translate="true">Select CMS Static block 7</label>
 			</parameter>
-			<parameter name="html_7" xsi:type="conditions" visible="true" sort_order="640" class="Atopt\BannerSlider\Block\Adminhtml\Widget\Form\Field\WysiwygEditor">
+			<parameter name="html_7" xsi:type="conditions" visible="true" sort_order="640" class="Atopt\Slider\Block\Adminhtml\Widget\Form\Field\WysiwygEditor">
 				<label translate="true">Content 7</label>
 			</parameter>
-			<parameter name="block_8" xsi:type="select" visible="true" sort_order="650" source_model="Atopt\BannerSlider\Model\Config\Source\Staticblock">
+			<parameter name="block_8" xsi:type="select" visible="true" sort_order="650" source_model="Atopt\Slider\Model\Config\Source\Staticblock">
 				<label translate="true">Select CMS Static block 8</label>
 			</parameter>
-			<parameter name="html_8" xsi:type="conditions" visible="true" sort_order="660" class="Atopt\BannerSlider\Block\Adminhtml\Widget\Form\Field\WysiwygEditor">
+			<parameter name="html_8" xsi:type="conditions" visible="true" sort_order="660" class="Atopt\Slider\Block\Adminhtml\Widget\Form\Field\WysiwygEditor">
 				<label translate="true">Content 8</label>
 			</parameter>
-			<parameter name="block_9" xsi:type="select" visible="true" sort_order="670" source_model="Atopt\BannerSlider\Model\Config\Source\Staticblock">
+			<parameter name="block_9" xsi:type="select" visible="true" sort_order="670" source_model="Atopt\Slider\Model\Config\Source\Staticblock">
 				<label translate="true">Select CMS Static block 9</label>
 			</parameter>
-			<parameter name="html_9" xsi:type="conditions" visible="true" sort_order="680" class="Atopt\BannerSlider\Block\Adminhtml\Widget\Form\Field\WysiwygEditor">
+			<parameter name="html_9" xsi:type="conditions" visible="true" sort_order="680" class="Atopt\Slider\Block\Adminhtml\Widget\Form\Field\WysiwygEditor">
 				<label translate="true">Content 9</label>
 			</parameter>
-			<parameter name="block_10" xsi:type="select" visible="true" sort_order="690" source_model="Atopt\BannerSlider\Model\Config\Source\Staticblock">
+			<parameter name="block_10" xsi:type="select" visible="true" sort_order="690" source_model="Atopt\Slider\Model\Config\Source\Staticblock">
 				<label translate="true">Select CMS Static block 10</label>
 			</parameter>
-			<parameter name="html_10" xsi:type="conditions" visible="true" sort_order="700" class="Atopt\BannerSlider\Block\Adminhtml\Widget\Form\Field\WysiwygEditor">
+			<parameter name="html_10" xsi:type="conditions" visible="true" sort_order="700" class="Atopt\Slider\Block\Adminhtml\Widget\Form\Field\WysiwygEditor">
 				<label translate="true">Content 10</label>
 			</parameter>
 		</parameters>

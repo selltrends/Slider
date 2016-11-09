@@ -80,7 +80,7 @@ class WysiwygEditor extends Template implements RendererInterface
 								'label' => __('WYSIWYG Editor'),
 								'type' => 'button',
 								'class' => 'action-wysiwyg',
-								'onclick' => 'bannersliderWysiwygEditor.open(\'' . $this->_backendData->getUrl(
+								'onclick' => 'sliderWysiwygEditor.open(\'' . $this->_backendData->getUrl(
 										'catalog/product/wysiwyg'
 										) . '\', \'' . $element->getHtmlId() . '\')',
 						]
