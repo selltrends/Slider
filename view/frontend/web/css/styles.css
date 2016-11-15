@@ -111,3 +111,20 @@
 .slider-widget .owl-dots{
     text-align: center;
 }
+
+.owl-nav {
+	position:absolute;
+	top:40%;
+	width:100%;
+}
+.owl-prev{
+	float:left;
+}
+.owl-next{
+	float:right;
+}
+
+.owl-dots{
+	position:relative;
+	margin:-20px;
+}
