@@ -11,7 +11,7 @@
 		<?php if (count($productCollection)) : ?>
 			<ol class="product-items widget-product-grid owl-carousel">
 			<?php foreach ($productCollection as $product): ?>
-				<li>
+				<li class="vape-slider">
 					<div class="product-item-info">
 						<a href="<?php echo $product->getProductUrl()?>" class="product-item-photo">
 								<?php echo $block->getImage($product,'category_page_grid')->toHtml() ?>
