@@ -1,8 +1,8 @@
 {
-    "name": "atopt/slider",
+    "name": "atopt/module-slider",
     "description": "Magento 2 slider widget module.",
     "type": "magento2-module",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
