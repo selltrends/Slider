@@ -16,7 +16,7 @@ class Implementation extends \Magento\Config\Block\System\Config\Form\Field
                     <div class="message"><strong>'.__('Use widgets in Magento admin for custom location implementation').'</strong></div>
                     <div class="message">
                         <strong>'.__('Copy code from below to the template file (between php tags) and replace custom_slider_id with proper slider id').'</strong><br/>
-                        echo $this->getLayout()->createBlock("Trive\Revo\Block\Slider\Items")->setSliderId("custom_slider_id")->toHtml();
+                        echo $this->getLayout()->createBlock("Atopt\Slider\Block\Slider\Items")->setSliderId("custom_slider_id")->toHtml();
                     </div>
                     <div class="message">
                         <strong>'.__('Copy code from below to the CMS page or block and replace custom_slider_id with proper slider id').'</strong><br/>
