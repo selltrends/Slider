@@ -27,7 +27,7 @@ abstract class Slider extends \Magento\Backend\App\Action {
      */
     protected $_resultRawFactory;
     /**
-     * @var \Trive\Revo\Model\ProductSliderFactory
+     * @var \Atopt\Slider\Model\ProductSliderFactory
      */
     protected $_sliderFactory;
     /**

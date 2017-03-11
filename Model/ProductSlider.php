@@ -3,7 +3,7 @@
 namespace Atopt\Slider\Model;
 /**
  * Class ProductSlider
- * @package Trive\Revo\Model
+ * @package Atopt\Slider\Model
  */
 class ProductSlider extends \Magento\Framework\Model\AbstractModel {
     /**

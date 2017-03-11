@@ -36,7 +36,7 @@ class Items extends \Magento\Catalog\Block\Product\AbstractProduct
     /**
      * Product slider model
      *
-     * @var \Trive\Revo\Model\ProductSlider
+     * @var \Atopt\Slider\Model\ProductSlider
      */
     protected $_slider;
     /**

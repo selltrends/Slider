@@ -69,7 +69,7 @@ class Products extends \Magento\Backend\Block\Widget\Grid\Extended {
     /**
      * Retrieve product slider object
      *
-     * @return \Trive\Revo\Model\ProductSlider
+     * @return \Atopt\Slider\Model\ProductSlider
      */
     public function getSlider()
     {
