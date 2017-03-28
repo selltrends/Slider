@@ -40,7 +40,7 @@ abstract class Slider extends \Magento\Backend\App\Action {
      * @param \Magento\Framework\View\LayoutFactory $layoutFactory
      * @param \Magento\Framework\Controller\Result\RawFactory $resultRawFactory
      * @param \Magento\Backend\Model\View\Result\ForwardFactory $resultForwardFactory
-     * @param \Atopt\Slider\Model\ProductSliderFactory $productsliderFactory
+     * @param \Atopt\Slider\Model\ProductSliderFactory $productSliderFactory
      * @param \Magento\Framework\Registry $coreRegistry
      */
     public function __construct(
@@ -74,7 +74,7 @@ abstract class Slider extends \Magento\Backend\App\Action {
      * Initialize and return slider object
      *
      * @param int $sliderId
-     * @return \Atopt\Slider\Model\ProductsliderFactory
+     * @return \Atopt\Slider\Model\ProductSliderFactory
      */
     protected function _initSlider($sliderId)
     {

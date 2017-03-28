@@ -9,5 +9,4 @@
                name="admin.block.productslider.slider.grid.container"
                template="Magento_Backend::widget/grid/container/empty.phtml" />
     </container>
-
 </layout>

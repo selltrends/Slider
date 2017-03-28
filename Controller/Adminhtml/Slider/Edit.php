@@ -14,7 +14,7 @@ class Edit extends \Atopt\Slider\Controller\Adminhtml\Slider {
         if ($sliderId)
         {
             if (!$model->getId()) {
-                $this->messageManager->addError(__('This slider no longer exists.'));
+            	$this->messageManager->addErrorMessage(__('This slider no longer exists.'));
                 $resultForward = $this->_resultRedirectFactory->create();
                 return $resultForward->setPath('*/*/');
             }

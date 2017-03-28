@@ -2,8 +2,7 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend/etc/menu.xsd">
     <menu>
-        <add id="Atopt_Slider::admin" title="Atopt Slider" module="Atopt_Slider" sortOrder="100" resource="Atopt_Slider::admin" />
-    	<add id="Atopt_Slider::productslider" title="Atopt Product Slider" module="Atopt_Slider" resource="Atopt_Slider::productslider" parent="Atopt_Slider::admin" />
+    	<add id="Atopt_Slider::productslider" title="Atopt Product Slider" module="Atopt_Slider" resource="Atopt_Slider::productslider" parent="Atopt_Core::admin" />
         <add id="Atopt_Slider::manage_sliders" title="Manage Sliders" module="Atopt_Slider" resource="Atopt_Slider::manage_sliders" parent="Atopt_Slider::productslider" action="productslider/slider/index"/>
         <add id="Atopt_Slider::config" title="Settings" module="Atopt_Slider" resource="Atopt_Slider::config" sortOrder="20" parent="Atopt_Slider::productslider" action="adminhtml/system_config/edit/section/productslider"/>
     </menu>

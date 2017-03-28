@@ -43,8 +43,8 @@ class Save extends \Atopt\Slider\Controller\Adminhtml\Slider {
                 //Go to grid
                 return $resultRedirect->setPath('*/*/');
             } catch(\Exception $e){
-                $this->messageManager->addError($e->getMessage());
-                $this->messageManager->addException($e,__('Error occurred during slider saving.'));
+            	$this->messageManager->addErrorMessage($e->getMessage());
+            	$this->messageManager->addExceptionMessage($e,__('Error occurred during slider saving.'));
             }
             //Set entered form data so we don't have to enter it again (not saved in database)
             $this->_getSession()->setFormData($sliderFormData);

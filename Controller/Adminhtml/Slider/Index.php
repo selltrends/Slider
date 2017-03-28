@@ -15,7 +15,7 @@ class Index extends \Atopt\Slider\Controller\Adminhtml\Slider {
             return $resultForward;
         }
         $resultPage = $this->_resultPageFactory->create();
-        $resultPage->setActiveMenu('Atopt_Slider::admin');
+        $resultPage->setActiveMenu('Atopt_Core::admin');
         $resultPage->addBreadcrumb(__('Sliders'), __('Sliders'));
         $resultPage->addBreadcrumb(__('Manage Sliders'), __('Manage Sliders'));
         return $resultPage;
