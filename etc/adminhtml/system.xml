@@ -2,7 +2,7 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config/etc/system.xsd">
     <system>
         <tab id="atopt" translate="label" sortOrder="1000">
-            <label>Atopt Slider</label>
+            <label>Atopt</label>
         </tab>
         <section id="productslider" translate="label" type="text" sortOrder="110" showInWebsite="1" showInStore="1" showInDefault="1">
             <label>Atopt Product Slider</label>
