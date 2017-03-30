@@ -484,7 +484,7 @@ class Items extends \Magento\Catalog\Block\Product\AbstractProduct
      * @param \Magento\Catalog\Model\Product $product
      * @return mixed
      */
-    public function getRevoProductDetailsHtml(\Magento\Catalog\Model\Product $product)
+    public function getAtoptProductDetailsHtml(\Magento\Catalog\Model\Product $product)
     {
         $renderer = $this->getDetailsRenderer($product->getTypeId().$this->getSliderId());
         if ($renderer) {
